@@ -1,0 +1,8 @@
+{
+  "name": "V3 Estética Automotiva",
+  "description": "Landing page para V3 Estética Automotiva, especialista em detalhamento automotivo premium.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
