@@ -27,7 +27,7 @@ export function Hero() {
         <div className="max-w-7xl mx-auto px-4 md:px-8 flex justify-between items-center">
           <Logo />
           <a 
-            href="https://wa.me/5561999850839?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20servi%C3%A7o%20na%20V3!"
+            href="https://wa.me/556699514646?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20servi%C3%A7o%20na%20V3!"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-sm font-medium text-v3-gold hover:text-v3-gold-light transition-colors"
@@ -78,7 +78,7 @@ export function Hero() {
           className="flex justify-center"
         >
           <a
-            href="https://wa.me/5561999850839?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20servi%C3%A7o%20na%20V3!"
+            href="https://wa.me/556699514646?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20servi%C3%A7o%20na%20V3!"
             target="_blank"
             rel="noopener noreferrer"
             className="group relative flex items-center justify-center gap-3 px-8 py-4 bg-gradient-to-r from-v3-gold to-amber-400 text-zinc-950 font-semibold rounded-lg overflow-hidden transition-all hover:scale-105 active:scale-95 shadow-[0_0_40px_-5px_rgba(209,165,56,0.4)]"

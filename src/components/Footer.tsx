@@ -28,7 +28,7 @@ export function Footer() {
             <span className="sr-only">Instagram</span>
           </a>
           <a 
-            href="https://wa.me/5561999850839?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20servi%C3%A7o%20na%20V3!" 
+            href="https://wa.me/556699514646?text=Ol%C3%A1%2C%20gostaria%20de%20agendar%20um%20servi%C3%A7o%20na%20V3!" 
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 rounded-full border border-white/10 flex items-center justify-center text-zinc-400 hover:text-v3-gold hover:border-v3-gold/50 hover:bg-v3-gold/5 transition-all"
