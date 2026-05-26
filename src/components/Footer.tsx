@@ -40,9 +40,30 @@ export function Footer() {
         
         <div className="w-full h-px bg-gradient-to-r from-transparent via-white/10 to-transparent mb-8" />
         
-        <div className="flex flex-col md:flex-row items-center justify-between w-full text-zinc-500 text-sm">
+        <div className="flex flex-col md:flex-row items-center justify-between w-full text-zinc-500 text-sm gap-6">
           <p>&copy; {new Date().getFullYear()} V3 Estética Automotiva. Todos os direitos reservados.</p>
-          <a href="#" className="hover:text-zinc-300 mt-4 md:mt-0 transition-colors">Política de Privacidade</a>
+          <div className="flex flex-col sm:flex-row items-center gap-6 mt-4 md:mt-0">
+            <a href="#" className="hover:text-zinc-300 transition-colors">Política de Privacidade</a>
+            <a 
+              href="https://web.portaldesign.online" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="group inline-flex items-center gap-2 text-zinc-400 hover:text-white no-underline font-sans transition-all duration-300 select-none"
+            >
+              <span className="text-[12px] font-normal">Desenvolvido por</span>
+              <svg 
+                viewBox="0 0 24 24" 
+                className="w-5 h-5 fill-none stroke-current transition-transform duration-300 group-hover:scale-105" 
+                style={{ strokeWidth: 1.8 }}
+              >
+                <path d="M5,21 V10 A7,7 0 0 1 19,10 V21 Z" />
+              </svg>
+              <div className="flex flex-col items-start font-black uppercase tracking-[0.1em] leading-[0.85] text-[11px]">
+                <span>PORTAL</span>
+                <span className="text-[6.5px] font-semibold tracking-[0.2em] mt-0.5">DESIGN</span>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     </footer>
